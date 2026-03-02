@@ -2,6 +2,12 @@
 
 A Mattermost plugin that translates messages using AI-powered LLM services directly, without requiring the Agents plugin.
 
+<img width="303" height="421" alt="image" src="https://github.com/user-attachments/assets/fb8f2853-f332-4e7f-8786-bf4cdaf2d8e2" />
+<img width="344" height="262" alt="image" src="https://github.com/user-attachments/assets/8613c8d7-ddec-4474-8440-a367f663d267" />
+<img width="353" height="274" alt="image" src="https://github.com/user-attachments/assets/c33857b3-ced3-4b25-b4c5-7163d9f1f212" />
+![2026-03-02_15-33-54](https://github.com/user-attachments/assets/163a9000-125a-4e8d-b10c-52d3070eb848)
+
+
 ## Features
 
 - **Translate Messages**: Right-click on any message and select "🌍 Translate Message (AI)" to translate it
