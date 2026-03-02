@@ -1,0 +1,64 @@
+{
+    "id": "com.mattermost.message-translate",
+    "name": "Message Translate",
+    "description": "Translate Mattermost messages using AI via the Agents plugin.",
+    "homepage_url": "https://github.com/mattermost/mattermost-plugin-message-translate",
+    "support_url": "https://github.com/mattermost/mattermost-plugin-message-translate/issues",
+    "release_notes_url": "https://github.com/mattermost/mattermost-plugin-message-translate/releases/tag/v0.1.0",
+    "icon_path": "assets/icon.svg",
+    "version": "0.1.0",
+    "min_server_version": "9.11.0",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+        }
+    },
+    "webapp": {
+        "bundle_path": "webapp/dist/main.js"
+    },
+    "bot": {
+        "username": "ai-translator",
+        "display_name": "AI Translator",
+        "description": "Bot for translating messages via AI.",
+        "icon_path": "assets/icon.svg"
+    },
+    "settings_schema": {
+        "header": "Message Translate Plugin Configuration (Direct LLM)",
+        "footer": "This plugin calls LLM API directly (OpenAI-compatible).",
+        "settings": [
+            {
+                "key": "LLMAPIURL",
+                "display_name": "LLM API URL",
+                "type": "text",
+                "help_text": "Full URL of the chat completions API. Example: https://api.openai.com/v1/chat/completions (OpenAI) or http://localhost:11434/v1/chat/completions (Ollama). Note: Must include '/v1/chat/completions'.",
+                "placeholder": "https://api.openai.com/v1/chat/completions",
+                "default": "https://api.openai.com/v1/chat/completions"
+            },
+            {
+                "key": "LLMAPIKey",
+                "display_name": "LLM API Key",
+                "type": "text",
+                "help_text": "API Key to authenticate with the LLM service. (Use 'password' type to hide).",
+                "placeholder": "sk-...",
+                "default": ""
+            },
+            {
+                "key": "LLMModel",
+                "display_name": "LLM Model",
+                "type": "text",
+                "help_text": "Model name to use (e.g., gpt-4o, llama3...).",
+                "placeholder": "gpt-4o",
+                "default": "gpt-4o"
+            },
+            {
+                "key": "DefaultTargetLanguage",
+                "display_name": "Default Target Language",
+                "type": "text",
+                "help_text": "Default language code to translate to (e.g., vi, en, ja).",
+                "placeholder": "vi",
+                "default": "vi"
+            }
+        ]
+    }
+}
