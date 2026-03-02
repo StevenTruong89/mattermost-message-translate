@@ -5,7 +5,8 @@ A Mattermost plugin that translates messages using AI-powered LLM services direc
 <img width="303" height="421" alt="image" src="https://github.com/user-attachments/assets/fb8f2853-f332-4e7f-8786-bf4cdaf2d8e2" />
 <img width="344" height="262" alt="image" src="https://github.com/user-attachments/assets/8613c8d7-ddec-4474-8440-a367f663d267" />
 <img width="353" height="274" alt="image" src="https://github.com/user-attachments/assets/c33857b3-ced3-4b25-b4c5-7163d9f1f212" />
-![2026-03-02_15-33-54](https://github.com/user-attachments/assets/163a9000-125a-4e8d-b10c-52d3070eb848)
+
+![2026-03-02_15-33-54](https://github.com/user-attachments/assets/e932c2cc-0bba-40d1-b1ac-960d300e62bb)
 
 
 ## Features
